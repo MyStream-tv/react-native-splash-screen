@@ -12,7 +12,7 @@ def DEFAULT_SUPPORT_LIB_VERSION             = "26.1.0"
 android {
     compileSdkVersion rootProject.hasProperty('compileSdkVersion') ? rootProject.compileSdkVersion : DEFAULT_COMPILE_SDK_VERSION
     buildToolsVersion rootProject.hasProperty('buildToolsVersion') ? rootProject.buildToolsVersion : DEFAULT_BUILD_TOOLS_VERSION
-    namespace 'com.org.devio.rn.splashscreen'
+    namespace 'org.devio.rn.splashscreen'
 
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 16)
